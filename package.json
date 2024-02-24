@@ -1,0 +1,23 @@
+{
+  "name": "mit10s-github-app",
+  "version": "0.2.2",
+  "description": "GitHub app for working with mit10s",
+  "author": "turmagangtech",
+  "license": "AGPL-3.0",
+  "homepage": "https://github.com/turmagangtech/mit10s-github-app",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "probot": "^12.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "nock": "^13.0.5",
+    "smee-client": "^1.2.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
