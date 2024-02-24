@@ -8,7 +8,7 @@ module.exports = (app) => {
     ["pull_request.opened", "pull_request.synchronize"],
     async (context) => {
       app.log.info("🎁 New PR is submitted");
-      app.log.info(context.payload);
+      // app.log.info(context.payload);
     }
   );
 };
